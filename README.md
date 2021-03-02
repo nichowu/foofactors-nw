@@ -72,3 +72,15 @@ table(x)
 
 The `fcount()` function returns a frequency table as a tibble with a
 column of factor levels and another of frequencies:
+
+``` r
+fcount(x)
+#> # A tibble: 5 x 2
+#>   f         n
+#>   <fct> <int>
+#> 1 d        22
+#> 2 c        21
+#> 3 a        19
+#> 4 b        19
+#> 5 e        19
+```
